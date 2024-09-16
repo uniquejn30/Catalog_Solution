@@ -54,3 +54,38 @@ You need to read the input from the test cases provided in JSON format.
 **n:** The number of roots provided in the given JSON
 **k:** The minimum number of roots required to solve for the coefficients of the polynomial
 k = m + 1, where m is the degree of the polynomial
+
+### Root Format Example:
+
+```json
+"2": {
+    "base": "2",
+    "value": "111"
+}
+```
+
+Consider the above root as (x, y):
+
+- x is the key of the object (in this case, x = 2)
+- y value is encoded with a given base
+- Decode y value: 111 in base 2 is 7
+- Therefore, x = 2 and y = 7
+
+You can use any known method to find the coefficients of the polynomial, such as:
+
+- Lagrange interpolation
+- Matrix method
+- Gauss elimination
+
+Solve for the constant term of the polynomial, typically represented as c.
+
+### Assignment Checkpoints:
+
+- **1. Read the Test Case (Input)**
+    - Parse and read the input provided in JSON format, which contains a series of polynomial roots
+- **2. Decode the Y Values**
+    - Correctly decode the Y values that are encoded using different bases
+- **3. Find the Secret (C)**
+    - Calculate the secret c using the decoded Y values and any known method
+
+**Hint:** Although you can't test your code against the test case in a testing environment, you can double-check it manually by solving the polynomial on paper and comparing the outputs.
