@@ -8,4 +8,8 @@ Download and install the JDK from the Oracle JDK download page or use OpenJDK.
 Follow the installation instructions and set up the JAVA_HOME environment variable.
 
 macOS:
+Install the JDK using Homebrew:
 
+Copy code
+brew install openjdk
+Alternatively, download and install it from the Oracle website or OpenJDK.
