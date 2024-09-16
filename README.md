@@ -1,15 +1,2 @@
-Steps to Run the Java Code on Another System
-1. Install Java Development Kit (JDK)
-Ensure that the Java Development Kit (JDK) is installed on the target system. The JDK includes the Java Runtime Environment (JRE) and tools for developing Java applications.
+The JSON input format has been adjusted to match the format that Java accepts. I can write a function to convert the given input into the required format for Java if needed.
 
-Windows:
-
-Download and install the JDK from the Oracle JDK download page or use OpenJDK.
-Follow the installation instructions and set up the JAVA_HOME environment variable.
-
-macOS:
-Install the JDK using Homebrew:
-
-Copy code
-brew install openjdk
-Alternatively, download and install it from the Oracle website or OpenJDK.
